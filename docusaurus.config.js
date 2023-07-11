@@ -91,8 +91,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Buttplug Developer Guide',
+                to: 'https://buttplug-developer-guide.docs.buttplug.io',
+              },
+              {
+                label: 'Buttplug Protocol Spec',
+                to: 'https://buttplug-spec.docs.buttplug.io',
+              },
+              {
+                label: 'Sex Toy Protocols I Have Known And Loved',
+                to: 'https://stpihkal.docs.buttplug.io',
               },
             ],
           },
@@ -100,34 +108,51 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Discourse Forum',
+                href: 'https://discuss.buttplug.io',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.buttplug.io',
               },
             ],
           },
           {
+            title: 'Social',
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/buttplugio',
+              },
+              {
+                label: 'Mastodon',
+                href: 'https://buttplug.zone/@buttplugio',
+              },
+              {
+                label: 'Bluesky',
+                href: 'https://bsky.app/profile/buttplug.io',
+              },
+            ],
+          },          
+          {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Nonpolynomial Blog',
+                to: 'https://nonpolynomial.com/blog',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/buttplugio',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://youtube.buttplug.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nonpolynomial. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
