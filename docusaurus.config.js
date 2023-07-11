@@ -158,6 +158,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      matomo: {
+        matomoUrl: 'https://nonpolynomial.matomo.cloud/',
+        siteId: '10',
+        phpLoader: 'matomo.php',
+        jsLoader: 'matomo.js',
+      },
     }),
 };
 
