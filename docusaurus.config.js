@@ -91,16 +91,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Buttplug Developer Guide',
-                to: 'https://buttplug-developer-guide.docs.buttplug.io',
+                label: 'Intiface Central Docs',
+                to: '/docs/intiface-central',
               },
               {
-                label: 'Buttplug Protocol Spec',
-                to: 'https://buttplug-spec.docs.buttplug.io',
+                label: 'Intiface GHR Docs',
+                to: '/docs/intiface-game-haptics-router',
               },
               {
-                label: 'Sex Toy Protocols I Have Known And Loved',
-                to: 'https://stpihkal.docs.buttplug.io',
+                label: 'Buttplug.io Developer Docs',
+                to: 'https://docs.buttplug.io',
               },
             ],
           },
