@@ -73,7 +73,7 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'intifaceCentralSidebar',
+            sidebarId: 'intifaceGameHapticsRouterSidebar',
             position: 'left',
             label: 'Intiface Game Haptics Router',
           },
