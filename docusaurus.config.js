@@ -57,12 +57,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/intiface-central.png',
       navbar: {
         title: 'Intiface Documentation',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Intiface Documentation',
+          src: 'img/intiface-central.png',
         },
         items: [
           {
