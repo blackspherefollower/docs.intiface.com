@@ -16,6 +16,7 @@ const sidebars = {
   intifaceCentralSidebar: [
     'intiface-central/index',
     'intiface-central/quickstart',
+    /*
     {
       type: 'category',
       label: 'Getting Around Intiface Central',
@@ -54,6 +55,7 @@ const sidebars = {
       ],
     },
     'intiface-central/troubleshooting'
+    */
   ],
   intifaceGameHapticsRouterSidebar: [
     'intiface-game-haptics-router/index'
