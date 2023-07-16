@@ -152,7 +152,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nonpolynomial. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nonpolynomial. Built with Docusaurus.`,        
       },
       prism: {
         theme: lightCodeTheme,
@@ -164,6 +164,23 @@ const config = {
         phpLoader: 'matomo.php',
         jsLoader: 'matomo.js',
       },
+      zoom: {
+      },
+      plugins: [
+        require.resolve("docusaurus-plugin-image-zoom"),
+        /*
+        [
+          '@docusaurus/plugin-ideal-image',
+          {
+            quality: 70,
+            max: 1030, // max resized image's size.
+            min: 640, // min resized image's size. if original is lower, use that size.
+            steps: 2, // the max number of images generated between min and max (inclusive)
+            disableInDev: false,
+          },
+        ],
+        */
+      ]
     }),
 };
 
