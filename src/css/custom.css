@@ -33,3 +33,16 @@
 #intiface-quickstart-app button {
   margin: 10px;
 }
+
+.quickstart-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items:center;
+}
+
+.quickstart-image img {
+  max-width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

@@ -167,8 +167,7 @@ const config = {
       zoom: {
       },
       plugins: [
-        require.resolve("docusaurus-plugin-image-zoom"),
-        /*
+        //require.resolve("docusaurus-plugin-image-zoom"),
         [
           '@docusaurus/plugin-ideal-image',
           {
@@ -179,7 +178,6 @@ const config = {
             disableInDev: false,
           },
         ],
-        */
       ]
     }),
 };
