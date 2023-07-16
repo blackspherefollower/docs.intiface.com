@@ -29,3 +29,7 @@
   --ifm-link-color: #929ba9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+#intiface-quickstart-app button {
+  margin: 10px;
+}
