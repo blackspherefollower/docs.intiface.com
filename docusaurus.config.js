@@ -167,6 +167,7 @@ const config = {
       zoom: {
       },
       plugins: [
+        'docusaurus-plugin-matomo',
         //require.resolve("docusaurus-plugin-image-zoom"),
         [
           '@docusaurus/plugin-ideal-image',
