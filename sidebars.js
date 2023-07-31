@@ -29,17 +29,20 @@ const sidebars = {
         'intiface-central/ui/other-panels'
       ],
     },
+    */
     {
       type: 'category',
       label: 'Hardware Help',
       items: [
         'intiface-central/hardware/intro', 
         'intiface-central/hardware/bluetooth', 
+        /*
         'intiface-central/hardware/xinput', 
         'intiface-central/hardware/lovense-dongle', 
         'intiface-central/hardware/lovense-connect', 
         'intiface-central/hardware/serial-port',
         'intiface-central/hardware/websocket-device'
+        */
       ],
     },
     {
@@ -47,15 +50,15 @@ const sidebars = {
       label: 'Specific Toy Brand Help',
       items: [
         'intiface-central/brands/intro', 
-        'intiface-central/brands/lovense', 
-        'intiface-central/brands/muse', 
-        'intiface-central/brands/satisfyer', 
         'intiface-central/brands/kiiroo', 
+        'intiface-central/brands/lovense',
+        //'intiface-central/brands/muse', 
+        'intiface-central/brands/satisfyer', 
+        'intiface-central/brands/thehandy',
         'intiface-central/brands/wevibe',
       ],
     },
     'intiface-central/troubleshooting'
-    */
   ],
   intifaceGameHapticsRouterSidebar: [
     'intiface-game-haptics-router/index'
