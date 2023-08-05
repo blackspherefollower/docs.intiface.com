@@ -15,6 +15,7 @@
 const sidebars = {
   intifaceCentralSidebar: [
     'intiface-central/index',
+    'intiface-central/getting-help',
     'intiface-central/quickstart',
     /*
     {
