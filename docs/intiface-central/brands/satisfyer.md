@@ -4,7 +4,7 @@
 
 Satisfyer devices have increased security requirements which requires extra setup steps when connecting to host devices like desktops, laptops, and phones.
 
-**Windows/Linux users** will need to use a [Cambridge Silicon Radio bluetooth dongle](docs/intiface-central/hardware/bluetooth). Dongles with other radio brands (Broadcomm, Intel, RealTek, etc...) have been found to possibly connect but not communicate with Satisfyer devices.
+**Windows/Linux users** will need to use a [Cambridge Silicon Radio bluetooth dongle](/docs/intiface-central/hardware/bluetooth). Dongles with other radio brands (Broadcomm, Intel, RealTek, etc...) have been found to possibly connect but not communicate with Satisfyer devices.
 
 _All Satisfyer devices must be paired with the operating system._ 
 
