@@ -23,6 +23,8 @@ For more info on resetting devices, see the [Satisfyer FAQ](https://us.satisfyer
 To pair the device:
 
 - Go to the bluetooth settings of your operating system
+  - If you're on Windows 11 (or possibly Windows 10) and the _Bluetooth devices discovery_ setting
+    is available in Bluetooth settings, make sure it's set to _Advanced_
 - Scan for devices
 - The device should appear as either "SF [device name]" or possibly "Unknown Device".
   - After pairing, the device should always show as "SF [device name]".
