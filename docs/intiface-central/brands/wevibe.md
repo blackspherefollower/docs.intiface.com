@@ -11,6 +11,8 @@ To pair the device with the OS:
 - Release, then hold the power button for 5 seconds
   - The toy should vibrate and the LED will blink
 - At this point, connect the toy using your operating system's bluetooth settings.
+  - If you're on Windows 11 (or possibly Windows 10) and the _Bluetooth devices discovery_ setting
+    is available in Bluetooth settings, make sure it's set to _Advanced_
 - Once it's connected there, wait for it to disconnect automatically, which will take a couple of
   seconds.
 - Start Intiface Central, turn on the Engine, and use the Devices panel in Intiface to scan for the
