@@ -17,20 +17,19 @@ const sidebars = {
     'intiface-central/index',
     'intiface-central/getting-help',
     'intiface-central/quickstart',
-    /*
     {
       type: 'category',
       label: 'Getting Around Intiface Central',
       items: [
-        'intiface-central/ui/intro', 
-        'intiface-central/ui/engine-control-panel', 
+        'intiface-central/ui/intro',
+        'intiface-central/ui/app-modes-engine-control-panel',
+        'intiface-central/ui/app-modes-repeater-panel',
         'intiface-central/ui/devices-panel', 
         'intiface-central/ui/log-panel', 
         'intiface-central/ui/settings-panel', 
         'intiface-central/ui/other-panels'
       ],
     },
-    */
     {
       type: 'category',
       label: 'Hardware Help',
