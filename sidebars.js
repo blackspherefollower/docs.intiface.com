@@ -17,6 +17,8 @@ const sidebars = {
     'intiface-central/index',
     'intiface-central/getting-help',
     'intiface-central/quickstart',
+    'intiface-central/ui/app-modes-repeater-panel',
+    /*
     {
       type: 'category',
       label: 'Getting Around Intiface Central',
@@ -30,6 +32,7 @@ const sidebars = {
         'intiface-central/ui/other-panels'
       ],
     },
+    */
     {
       type: 'category',
       label: 'Hardware Help',
