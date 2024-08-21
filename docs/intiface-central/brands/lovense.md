@@ -1,6 +1,6 @@
- # Lovense
+# Lovense
 
- ## Should I use a Bluetooth Dongle, a Lovense Dongle, or Lovense Connect?
+## Should I use a Bluetooth Dongle, a Lovense Dongle, or Lovense Connect?
 
 First and foremost: **WHICHEVER ANSWER YOU CHOOSE HERE, ONLY CHOOSE ONE. USING MULTIPLE LOVENSE CONNECTION SOLUTIONS WILL LEAD TO PAIN.**
 
@@ -117,3 +117,17 @@ DNS issues usually arise because Lovense does some EXTREMELY sketchy shit with d
 Buttplug gets around this by only using HTTP (since we're not really planning on doing this from a browser) and parsing the IP out of the lovense.club URL handed to us by the Buttplug API. Therefore, DNS *shouldn't* be an issue, but there's always the chance we missed something. If you find that we did, please contact us via the methods on the front page of the FAQ.
 
 :::
+
+## I renamed my Lovense Toy in the Lovense app and now Intiface Central can't find it
+
+Intiface Central currently expects Lovense devices to have their default bluetooth name when connecting. This name started with "LVS-" then is usually some assortment of letters/numbers. The Lovense App allows users to change this, which at the moment causes Intiface Central to ignore the device.
+
+We hope in a future update to fix this situation and change how we detect Lovense devices. Until then, to reset your device name:
+
+- Open the Lovense Remote App on your phone
+- Go to the Toys Tab
+- Choose "Pick your toy"
+- Go to Settings of the toy that you want to reset
+- Choose "Toy name"
+- Choose "Leave blank"
+- Hit "save"
